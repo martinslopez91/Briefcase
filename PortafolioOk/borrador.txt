@@ -1,0 +1,54 @@
+
+**menu desplegable HTML**
+
+<label for="check"><img src="img/menu-desplegable.png" id="logo"></label>
+           <input type="checkbox" name="check" id="check">
+           <div id="despliegue">
+            
+            <a href="#">PERFIL</a>
+            <a href="#">PROYECTOS</a>
+            <a href="#">CONTACTO</a>
+            <a href="#">GIT & HUB</a>
+            <a href="#">LINKEDIN</a>
+            <img src="img/letra-png.png" id="letra-png">
+            <h2 id="texto-menu">Briefcase Dev</h2>
+        </div>    
+    </div>
+
+    **MENU DESPLEGABLE CSS**
+    #despliegue{
+   opacity: 0%;
+   font-size: 0px;
+   margin-left: -200px;
+}
+#despliegue a{
+    text-decoration: none;
+    list-style: none;
+    color: #c9b977;
+    padding: 20px;
+    opacity: 50%;
+}
+#despliegue a:hover{
+    opacity: 100%;
+    transition: 0.5s;
+    box-shadow: 0px 3px 6px 0px #c9b977;
+    color: #c9b977;
+}
+
+#check{
+    display: none;
+}
+#check:checked + #despliegue{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    opacity: 100%;
+    width: 200px;
+    height: 500px;
+   font-size: 20px;
+   transition: 0.3s;
+   background-color: #19191a;
+   box-shadow: 0px 8px 16px 0px;
+  
+}

@@ -1,0 +1,14 @@
+Me enorgullece presentarme, mi nombre es SERGIO MARTIN LOPEZ, despues de un arduo trabajo logre concretar este portafolios con muchisimos proyectos para brindarles y darme a conocer, momentaneamente estoy trabajdo con HTML,CSS,JAVASCRIPT,PHP y estoy introduciendo bases de datos, manejo tambien GIT,NODE-JS Y POWERSHELL, estas tres ultimas tecnologias estan en constante a
+HTML:
+ <p class="presentacion">
+                Me enorgullece presentarme,<br> mi nombre es <em>SERGIO MARTIN LOPEZ</em> , despues de un arduo trabajo logre concretar este portafolios con muchisimos proyectos para brindarles y darme a conocer, momentaneamente estoy trabajdo con HTML,CSS,JAVASCRIPT,PHP y estoy introduciendo bases de datos, manejo tambien GIT,NODE-JS Y POWERSHELL, estas tres ultimas tecnologias estan en constante a
+            </p>
+CSS:
+.presentacion{
+    letter-spacing: 2px;
+    width: 400px;
+    color:#c9b977;
+    line-height:1.5;
+    transition: 0.3s;
+    
+}

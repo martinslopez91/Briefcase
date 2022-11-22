@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Quicksand:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EEEEEE;
+    width: 1430px;
+    height: 795px;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+.buscar{
+    width: 45%;
+    height: 90%;
+    background-color: #D8D2CB;
+}
+#titulo{
+    display:flex ;
+    justify-content:center;
+    align-items:center;
+    width: 80%;
+    border: 1px;
+}
+#solicitud{
+    
+    margin-top: -20px;
+}
+.datos-form{
+    width: 45%;
+    height: 90%;
+    background-color: #D8D2CB;
+}
+#form-png{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    padding:20px ;
+}
+#solicitud{
+    display: inline;
+}
+#show{
+    display: none
+}
+#funciona{
+    opacity:0% ;
+    background-color:transparent;
+    padding: 2rem 3rem;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+    transition: 1s;
+}
+#show:checked ~ #funciona{
+    opacity: 100%;
+}
+#spanbut{
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    cursor: pointer;
+   
+}
+#spanbut:hover{
+    opacity: 50%;
+    transition: 0.5s;
+    
+}

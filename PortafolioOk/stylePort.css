@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2? family= Quicksand:wght@500 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Permanent+Marker & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+    font-family: 'Quicksand', sans-serif;
+}
+/*NAV */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:100px;
+    background: linear-gradient(#373739,#191919);
+}
+
+    
+.nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-weight: bold;
+   
+}
+.nav li,a{
+    text-decoration: none;
+    list-style: none;
+    color: #c9b977;
+    padding: 10px;   
+}
+.links a:hover{
+    opacity: 100%;
+    transition: 0.5s;
+
+    box-shadow: 0px 0px 0px 0px #c9b977;
+    
+}
+@keyframes aper{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 50%;
+    }
+}
+#letra-nav{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+/*DESDE ACA COMIENZA EL MAIN*/
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    background-color: #19191a;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+.presentacion-animacion{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 33%;
+    font-family: Permanent Marker;
+    font-size: 70px;
+    letter-spacing: 20px;
+    overflow: hidden;
+    color: #c9b977;
+    margin-top: 50px;
+}
+#dev{
+    animation-delay: 0.3s;
+    animation-name: slideright;
+    animation-duration: 3s ;
+    text-decoration: none;
+    list-style: none;
+    color: #c9b977;;
+}
+
+#dev:hover{
+    opacity: 20%;
+    transition: 1s;
+}
+@keyframes slideright{
+    from {
+        margin-left: 100%;
+        width: 300%;
+        opacity: 0%;
+        color: transparent;
+      }
+    
+      to {
+        margin-left: 7%;
+        width: 100%;
+        opacity: 100%;
+        color: #c9b977;
+      }
+    
+}
+#letra{
+    width: 400px;
+}
+.carrusel{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 23%;
+}
+.logos{
+    width: 70px;
+    height: 70px;
+    opacity: 50%;
+}
+.logos a{
+    width: 70px;
+    height: 70px;
+}
+.logos:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
