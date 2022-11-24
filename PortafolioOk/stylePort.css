@@ -86,8 +86,8 @@ main{
 }
 
 #dev:hover{
-    opacity: 20%;
-    transition: 1s;
+    filter: blur(5px);
+    transition:all .5s ease-in-out;
 }
 @keyframes slideright{
     from {
@@ -112,7 +112,16 @@ main{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 23%;
+    height: 10%;
+}
+.carrusel a{
+    box-shadow: 0px 1px 2px 0px #c9b977;
+    border-radius:20px ;
+}
+.carrusel a:hover{
+    background-color: #c9b977;
+    box-shadow: 0px 8px 16  px 0px #c9b977;
+    transition: 0.5s;
 }
 .logos{
     width: 70px;
@@ -124,6 +133,6 @@ main{
     height: 70px;
 }
 .logos:hover{
-    opacity: 100%;
+    filter:grayscale(100%);
     transition: 0.5s;
 }

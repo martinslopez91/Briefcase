@@ -12,18 +12,41 @@
         <div id="titulo">
             <div id="solicitud">
                 <img src="img/formulario-de-firma.png" id="form-png">
-                <label for="show">
-                <span id="spanbut">SOLICITAR TURNO</span>
+                <label for="show" id="spanbut">
+                <span id="spanbut">TURNOS</span>
             </label>
             </div>
                
             <input type="radio" name="group" id="show">
-            <div id="funciona"></div>
+            <div id="form-datos" class="formulario">
+                <ul>
+                    <li>
+                        <input type="text" placeholder="Nombre" id="nombre">
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Apellido" id="Apellido">
+                    </li>
+                    <li>
+                        <input type="number" name="" id="socio" placeholder="N° de socio">
+                    </li>
+                    <li>
+                        <input type="datetime" name="" id="horario">
+                    </li>
+                    <li>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Sugerencia"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="ENVIAR" id="btn-submit">
+                    </li>
+                </ul>
+            </div>
         </div>
         <div id="form-llenado"></div>
        
     </div>
-    <div class="datos-form"></div>
+    <div class="datos-form">
+
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
